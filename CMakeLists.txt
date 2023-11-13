@@ -8,4 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED OFF)
 
 set(Debug_Window_Class window_class_debug.h window_class_debug.cpp)
 
-add_executable(simple_directx_game main.cpp ${Debug_Window_Class})
+add_executable(simple_directx_game main.cpp ${Debug_Window_Class}
+        p_windows_simple.h)
